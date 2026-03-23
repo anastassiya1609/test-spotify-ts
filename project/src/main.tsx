@@ -1,9 +1,12 @@
 import { createRoot } from "react-dom/client";
-import App from "./App.tsx";
 import { BrowserRouter } from "react-router-dom";
+import App from "./App";
+import ThemeProvider from "./providers/ThemeProvider";
 
 createRoot(document.getElementById("root")!).render(
   <BrowserRouter>
-    <App />
+    <ThemeProvider>
+      <App />
+    </ThemeProvider>
   </BrowserRouter>,
 );

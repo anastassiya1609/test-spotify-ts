@@ -1,4 +1,4 @@
-import AlbumList from "../components/AlbumList";
+import AlbumList from "../components/album/AlbumList";
 
 export default function TopAlbumPage() {
     return(

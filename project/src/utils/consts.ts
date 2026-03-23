@@ -1,23 +1,4 @@
- 
-export const albumLinks: string[] = [
-  "302120",
-  "302121",
-  "302124",
-  "302125",
-  "302126",
-  "302127",
-  "302128",
-  "302129",
-  "302131",
-  "302132",
-  "302133",
-  "302135",
-  "302136",
-  "302137",
-  "302138",
-  "302140",
-  "302141",
-  "302142",
-  "302143",
-  "302144",
-];
+export const TOP_ALBUMS_PAGE_ROUTE = "/";
+export const TOP_ATRTISTS_PAGE_ROUTE = "/artists";
+export const SETTINGS_PAGE_ROUTE = "/settings";
+export const ALBUM_PAGE_ROUTE = "/albums/:id";

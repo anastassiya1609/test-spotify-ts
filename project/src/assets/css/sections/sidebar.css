@@ -1,6 +1,6 @@
 .sidebar {
   padding: 36px 16px 24px;
-  background: var(--black);
+  background: var(--primary-color);
   border-radius: 12px;
   max-width: 420px;
   height: 100%;
