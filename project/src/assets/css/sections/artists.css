@@ -13,7 +13,7 @@
 }
 
 .artist-wrapper::-webkit-scrollbar-thumb {
-  background: var(--light-gray);
+  background: var(--text);
   border-radius: 10px;
   border: 3px solid var(--primary-color);
 }
@@ -54,7 +54,7 @@
   font-size: 15px;
   line-height: 18px;
   font-weight: 400;
-  color: var(--light-gray);
+  color: var(--text);
   text-align: center;
 }
 

@@ -90,6 +90,24 @@ body {
   line-height: 32px;
   color: var(--white);
 }
+.search-list {
+  flex-grow: 1;
+  overflow-y: scroll;
+}
+
+.search-list::-webkit-scrollbar {
+  width: 15px;
+}
+
+.search-list::-webkit-scrollbar-track {
+  background: var(--primary-color);
+}
+
+.search-list::-webkit-scrollbar-thumb {
+  background: var(--text);
+  border-radius: 10px;
+  border: 3px solid var(--primary-color);
+}
 
 @keyframes bblFadInOut {
   0%,

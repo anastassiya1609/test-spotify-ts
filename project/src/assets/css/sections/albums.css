@@ -13,7 +13,7 @@
 }
 
 .album-wrapper::-webkit-scrollbar-thumb {
-  background: var(--light-gray);
+  background: var(--text);
   border-radius: 10px;
   border: 3px solid var(--primary-color);
 }
@@ -99,7 +99,7 @@
 .album-content__circle {
   width: 4px;
   height: 4px;
-  background: var(--light-gray);
+  background: var(--text);
   border-radius: 100%;
 }
 
@@ -107,7 +107,7 @@
   font-size: 14px;
   line-height: 14px;
   font-weight: 400;
-  color: var(--light-gray);
+  color: var(--text);
 }
 
 .album-content__author span {

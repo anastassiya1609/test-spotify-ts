@@ -34,6 +34,10 @@ export interface Track {
     name: string;
   };
   duration: number;
+  album:{
+    cover_small?: string;
+  }
+  isExtended?: boolean;
    
 }
 
@@ -52,6 +56,8 @@ export interface TrackItemProps{
     title: string;
     artist: string;
     duration: string;
+    img?: string;
+    isExtended?: boolean;
 }
 
  

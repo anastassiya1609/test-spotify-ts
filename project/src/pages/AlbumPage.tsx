@@ -84,6 +84,7 @@ export default function AlbumPage() {
                       number={i + 1}
                       artist={track.artist.name}
                       duration={secondsConverter(track.duration)}
+                      
                     />
                   ))}
                 </div>
